@@ -1,0 +1,11 @@
+__pycache__
+.env
+.history
+.hypothesis/
+build/
+reports/
+env/
+tests/
+ganache-2.5.4-linux-x86_64(1).AppImage
+help.md
+scripts/__pycache__

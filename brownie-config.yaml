@@ -1,0 +1,8 @@
+dotenv: .env
+wallets:
+  from_key: ${PRIVATE_KEY}
+networks:
+    ganache-local: # the default network that brownie connects to
+      host: "127.0.0.1"
+      port: 7545
+      chainid: 5777
