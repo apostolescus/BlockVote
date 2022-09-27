@@ -86,6 +86,8 @@ using Paillier homomorphic encryption
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
+! This project is a proof of concept and the smart contract is not designed to be gas optimised !
+
 This project aims to implement a secure voting system that ensures transparency, anonymity, integrity and confidentiality. In order to achieve this, the project was developed to run on a blockchain in a decentralized environment. This allows for the vote session to be held in a transparent manner, eliminating any fraud possibility, given the fact that anyone can verify the transactions on the blockchain. The main problem that arises from this is that, given its public character, all casted votes can easily be seen by everybody and can be traced to one wallet. In order to solve this challenge, all the votes are encrypted using a homomorphic encryption algorithm that allows to calculate the sum of the encrypted numbers.In this way, the votes can be casted, stored and the results fetched from the blockchain in a completely anonymous way.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
